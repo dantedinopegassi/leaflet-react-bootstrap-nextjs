@@ -1,3 +1,20 @@
+// import React from "react";
+// import dynamic from "next/dynamic";
+
+// export default function Home() {
+//   const MapNoSSR = dynamic(() => import("../../component/Map.jsx"), {
+//     ssr: false,
+//   });
+
+//   return (
+//     <main>
+//       <div id="map">
+//         <MapNoSSR />
+//       </div>
+//     </main>
+//   );
+// }
+
 import Image from "next/image";
 import styles from "./page.module.css";
 
